@@ -31,3 +31,126 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+.header {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color:#25133d;
+}
+
+.logo {
+	display: flex;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	color:#25133d;
+	padding: 0 40px 0 40px;
+}
+
+.logo a {
+	color:#25133d;
+	text-decoration: none;
+}
+
+.logo a:hover {
+	color:#25133d;
+	text-decoration: none;
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+}
+
+.menu a {
+	padding: 0 60px 0 0;
+	color:#25133d;
+	text-decoration: none;
+	text-align: center;
+}
+/* --------------------------------- */
+.cover {
+	display: flex;
+	position: relative;
+	color: white;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+.cover_text {
+	width: 960px;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	padding: 30px 0 0 35px;
+}
+
+.cover h1 {
+	font-size: 90px;
+	font-weight: 400;
+	margin: 0px;
+}
+.slogan {
+	font-size: 35px;
+	font-weight: 200px;
+}
+
+.akce {
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.akce a {
+	text-decoration: none;
+	color: white;
+	padding: 15px 30px;
+	text-align: center;
+	border: solid;
+	border-radius: 10px;
+	border-width: 1px;
+}
+.akce a:hover {
+	background-color: #48418e;
+}
+
+.tlacitko {
+	margin: 0 15px 0 0;
+}
+.phone {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+/* --------------------------------- */
+.features {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0 0 20px;
+}
+.box {
+	display: inline-block;
+	width: 280px;
+	text-align: center;
+	padding: 25px 20px 30px 0px; 
+}
+
+.box h2 {
+	font-size: 20px;
+	color: #48418e;
+	margin: 15px 0;
+}
+
+.box p {
+	font-weight: 300;
+	margin: 15px 0;
+}
+
+/* ----------------------------------- */
+.footer {
+	text-align: center;
+	background-color: #48418e;
+	color: white;
+	padding: 10px;
+	font-size: 13px;
+}
+
